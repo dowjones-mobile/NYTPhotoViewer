@@ -28,7 +28,7 @@ let package = Package(
             resources: [
                 .process("NYTPhotoViewer.bundle")
             ],
-            publicHeadersPath: ".",
+            publicHeadersPath: "./**",
             cSettings: [
                 .headerSearchPath("Protocols"),
                 .headerSearchPath("Resource Loading"),
