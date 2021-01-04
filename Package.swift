@@ -28,12 +28,8 @@ let package = Package(
             resources: [
                 .process("NYTPhotoViewer.bundle")
             ],
-            publicHeadersPath: "./**",
-            cSettings: [
-                .headerSearchPath("Protocols"),
-                .headerSearchPath("Resource Loading"),
-            ],
-            linkerSettings: [
+            publicHeadersPath: ".",
+                linkerSettings: [
                 .linkedFramework("UIKit", .when(platforms: .some([.iOS, .tvOS])))
             ]
         )
