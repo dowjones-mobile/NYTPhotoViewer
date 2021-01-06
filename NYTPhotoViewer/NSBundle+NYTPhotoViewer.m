@@ -16,11 +16,12 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
 #ifdef SWIFTPM_MODULE_BUNDLE
-        resourceBundle = SWIFTPM_MODULE_BUNDLE;
+        NSBundle* midBundle = SWIFTPM_MODULE_BUNDLE;
 #else
-        NSString *resourceBundlePath = [[NSBundle bundleForClass:[NYTPhotosViewController class]] pathForResource:@"NYTPhotoViewer" ofType:@"bundle"];
-        resourceBundle = [self bundleWithPath:resourceBundlePath];
+        NSBundle* midBundle = [NSBundle bundleForClass:[NYTPhotosViewController class]];
 #endif
+        NSString *resourceBundlePath = [midBundle pathForResource:@"NYTPhotoViewer" ofType:@"bundle"];
+        resourceBundle = [self bundleWithPath:resourceBundlePath];
     });
     return resourceBundle;
 }
