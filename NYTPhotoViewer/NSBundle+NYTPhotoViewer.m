@@ -15,8 +15,12 @@
     static NSBundle *resourceBundle = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+#ifdef SWIFTPM_MODULE_BUNDLE
+        resourceBundle = SWIFTPM_MODULE_BUNDLE;
+#else
         NSString *resourceBundlePath = [[NSBundle bundleForClass:[NYTPhotosViewController class]] pathForResource:@"NYTPhotoViewer" ofType:@"bundle"];
         resourceBundle = [self bundleWithPath:resourceBundlePath];
+#endif
     });
     return resourceBundle;
 }
