@@ -21,16 +21,12 @@ let package = Package(
             ],
             path: "NYTPhotoViewer",
             exclude: [
-                "NYTInterstitialViewController.h",
                 "Info.plist"
             ],
             resources: [
                 .process("NYTPhotoViewer.bundle")
             ],
             publicHeadersPath: ".",
-            cSettings: [
-                .headerSearchPath("../"),
-            ],
             linkerSettings: [
                 .linkedFramework("UIKit", .when(platforms: .some([.iOS, .tvOS])))
             ]
