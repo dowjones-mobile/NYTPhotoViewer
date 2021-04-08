@@ -81,6 +81,8 @@
 		2A4D6135208683990092ED17 /* NYTInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D6134208683990092ED17 /* NYTInterstitialViewController.m */; };
 		55096986261B510B0074FAA3 /* NYTPhotoCaptionViewLayoutWidthHinting.h in Headers */ = {isa = PBXBuildFile; fileRef = 111084471C87682300699670 /* NYTPhotoCaptionViewLayoutWidthHinting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550C8160261B504000A1635F /* NYTPhotoCaptionViewLayoutWidthHinting.h in Headers */ = {isa = PBXBuildFile; fileRef = 111084471C87682300699670 /* NYTPhotoCaptionViewLayoutWidthHinting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556A5924261F86A9007D21FC /* NYTPhotoViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11FBDA791C87714600018169 /* NYTPhotoViewer.bundle */; };
+		556A592B261F86A9007D21FC /* NYTPhotoViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11FBDA791C87714600018169 /* NYTPhotoViewer.bundle */; };
 		55E3B947261B6897000F32B6 /* NYTPhotoViewerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E3B943261B6897000F32B6 /* NYTPhotoViewerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55E3B948261B6897000F32B6 /* NYTPhotoViewerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E3B943261B6897000F32B6 /* NYTPhotoViewerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55E3B950261B7B85000F32B6 /* NYTPhotoViewerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E3B94F261B7B85000F32B6 /* NYTPhotoViewerContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -808,6 +810,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556A592B261F86A9007D21FC /* NYTPhotoViewer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -834,6 +837,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556A5924261F86A9007D21FC /* NYTPhotoViewer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
