@@ -235,7 +235,7 @@ static const UIEdgeInsets NYTPhotosViewControllerCloseButtonImageInsets = {3, 0,
     
     [self updateOverlayInformation];
     [self.view addSubview:self.overlayView];
-    
+
     [self setOverlayViewHidden:YES animated:NO];
 }
 
