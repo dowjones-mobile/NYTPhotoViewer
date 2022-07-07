@@ -11,8 +11,8 @@
 #import "NYTScalingImageView.h"
 
 #ifdef ANIMATED_GIF_SUPPORT
-#import <PINRemoteImage/PINRemoteImage.h>
-#import <PINRemoteImage/PINAnimatedImageView.h>
+#import "PINRemoteImage.h"
+#import "PINAnimatedImageView.h"
 #endif
 
 NSString * const NYTPhotoViewControllerPhotoImageUpdatedNotification = @"NYTPhotoViewControllerPhotoImageUpdatedNotification";
