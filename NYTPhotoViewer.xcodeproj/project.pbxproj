@@ -93,6 +93,7 @@
 		665FC86F2810624B00031F2A /* OCMock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665FC8642810624B00031F2A /* OCMock.xcframework */; };
 		665FC874281090B300031F2A /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665FC87028108F7000031F2A /* PINCache.xcframework */; };
 		665FC875281090B300031F2A /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665FC87228108F8B00031F2A /* PINOperation.xcframework */; };
+		6FB83A5C29A6AC3F002DAA76 /* NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 111084091C875B5000699670 /* NYTPhotoViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9371A73C1E438B9C00A8F2EF /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371A73B1E438B9C00A8F2EF /* PhotoItem.swift */; };
 		9371A7441E438BCE00A8F2EF /* PhotoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371A7431E438BCE00A8F2EF /* PhotoBox.swift */; };
 		9371A7461E43D61E00A8F2EF /* PhotoViewerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371A7451E43D61E00A8F2EF /* PhotoViewerCoordinator.swift */; };
@@ -561,6 +562,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB83A5C29A6AC3F002DAA76 /* NYTPhotoViewer.h in Headers */,
 				11FBDA981C87753200018169 /* NYTPhotoTransitionController.h in Headers */,
 				11FBDA9C1C87753200018169 /* NYTScalingImageView.h in Headers */,
 				11FBDA921C87753200018169 /* NYTPhotosOverlayView.h in Headers */,
@@ -1118,7 +1120,7 @@
 				);
 				INFOPLIST_FILE = NYTPhotoViewer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1145,7 +1147,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "ANIMATED_GIF_SUPPORT=1";
 				INFOPLIST_FILE = NYTPhotoViewer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
