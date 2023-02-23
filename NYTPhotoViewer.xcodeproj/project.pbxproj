@@ -93,7 +93,6 @@
 		665FC86F2810624B00031F2A /* OCMock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665FC8642810624B00031F2A /* OCMock.xcframework */; };
 		665FC874281090B300031F2A /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665FC87028108F7000031F2A /* PINCache.xcframework */; };
 		665FC875281090B300031F2A /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665FC87228108F8B00031F2A /* PINOperation.xcframework */; };
-		6F68A2C429A7DEA300D99B4C /* NYTPhotoViewerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FBDAA51C87768700018169 /* NYTPhotoViewerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FB83A5C29A6AC3F002DAA76 /* NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 111084091C875B5000699670 /* NYTPhotoViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9371A73C1E438B9C00A8F2EF /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371A73B1E438B9C00A8F2EF /* PhotoItem.swift */; };
 		9371A7441E438BCE00A8F2EF /* PhotoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371A7431E438BCE00A8F2EF /* PhotoBox.swift */; };
@@ -546,7 +545,6 @@
 				1110845C1C87682300699670 /* NYTScalingImageView.h in Headers */,
 				111084521C87682300699670 /* NYTPhotosOverlayView.h in Headers */,
 				111084561C87682300699670 /* NYTPhotoTransitionAnimator.h in Headers */,
-				6F68A2C429A7DEA300D99B4C /* NYTPhotoViewerCore.h in Headers */,
 				55E3B947261B6897000F32B6 /* NYTPhotoViewerDataSource.h in Headers */,
 				55096986261B510B0074FAA3 /* NYTPhotoCaptionViewLayoutWidthHinting.h in Headers */,
 				93F45B181E3BB5610093DB93 /* NYTPhotoViewerSinglePhotoDataSource.h in Headers */,
