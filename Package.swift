@@ -21,10 +21,11 @@ let package = Package(
             ],
             path: "NYTPhotoViewer",
             exclude: [
-                "Info.plist"
+                "Info.plist",
+                "Resources"
             ],
             resources: [
-                .process("NYTPhotoViewer.bundle")
+                .process("Resources/NYTPhotoViewer.bundle")
             ],
             publicHeadersPath: ".",
             linkerSettings: [
