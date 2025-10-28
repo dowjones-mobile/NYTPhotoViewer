@@ -27,7 +27,7 @@ let package = Package(
             resources: [
                 .process("Resources/NYTPhotoViewer.bundle")
             ],
-            publicHeadersPath: ".",
+            publicHeadersPath: "include",
             linkerSettings: [
                 .linkedFramework("UIKit", .when(platforms: .some([.iOS, .tvOS])))
             ]
