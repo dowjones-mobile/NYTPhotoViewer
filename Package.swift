@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "NYTPhotoViewer",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v14),
     ],
     products: [
         .library(name: "NYTPhotoViewer", targets: ["NYTPhotoViewer"])
